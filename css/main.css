@@ -1,0 +1,77 @@
+.cacher {
+    visibility: hidden;
+}
+
+.visibl {
+    visibility: visible;
+}
+
+h1,
+h2 {
+    color: #fafafa;
+    text-shadow: 3px 3px 4px rgba(0, 0, 0, 0.5);
+    font-family: "Kaushan Script";
+}
+
+body {
+    background: url(../images/1.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.fond {
+    text-align: center;
+    font-family: "Arial";
+}
+
+button {
+    background-color: #222;
+    color: #fafafa;
+    border: none;
+    font-size: 50px;
+    border-radius: 178px;
+    height: 250px;
+    width: 250px;
+    border: 10px solid #fafafa;
+    margin-top: 50px;
+}
+
+#resultat {
+    font-weight: bold;
+}
+
+#cmpteRebour {
+    font-size: 100px;
+    position: absolute;
+    left: 47%;
+    top: 170px;
+    font-weight: bold;
+    color: white;
+    margin: 50px 0 0 0;
+    text-shadow: 3px 3px 4px rgba(0, 0, 0, 0.5);
+    font-family: "Kaushan Script";
+}
+
+hr {
+    width: 50%;
+    border: 2px solid #fafafa;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
+}
+
+.regle {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+
+.ordinateur {
+    margin-bottom: 150px;
+}
+
+footer {
+    padding: 20px;
+    background-color: #222;
+    color: #fafafa;
+    margin-top: 200px;
+}

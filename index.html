@@ -1,0 +1,91 @@
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" lang="fr">
+<!--<![endif]-->
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Pierre-Feuille-Ciseaux</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <link rel="stylesheet" href="app/public/libs/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+    <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+    <div class="fond">
+
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h1>Pierre - Feuille - Ciseaux</h1>
+                    <hr>
+                    <button id="commencer">JOUER</button>
+
+                    <p id="cmpteRebour"> </p>
+
+                    <ul class="list-inline">
+
+                        <li>
+                            <p class="cacher">Vous : <span id="scoreUtilisateur">0</span> points</p>
+                        </li>
+                        <li>
+                            <p id="resultat" class="cacher"> </p>
+                        </li>
+                        <li>
+                            <p class="cacher">Ordinateur : <span id="scoreOrdinateur">0</span> points</p>
+                        </li>
+                        <li></li>
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="utilisateur">
+            <ul class="list-inline">
+                <li><img src="images/pierre.png" id="pierre" alt="Pierre" class="cacher img-responsive"></li>
+                <li> <img src="images/feuille.png" id="feuille" alt="Feuille" class="cacher img-responsive"></li>
+                <li> <img src="images/ciseaux.png" id="ciseaux" alt="Ciseaux" class="cacher img-responsive"></li>
+            </ul>
+        </div>
+
+
+        <h2 class="cacher">VS</h2>
+
+        <div class="ordinateur">
+
+            <img src="" alt="">
+
+        </div>
+
+        <footer class="navbar-fixed-bottom">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <p>Copyright Ashvin PAINIAYE 2016</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+
+
+    <script src="app/public/libs/jquery/dist/jquery.min.js"></script>
+    <script src="app/public/libs/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>
